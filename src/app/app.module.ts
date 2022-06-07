@@ -9,13 +9,17 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './shared/home/home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { CreatecompetitionComponent } from './pages/admin/createcompetition/createcompetition.component';
+import { NewsComponent } from './shared/news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    CreatecompetitionComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

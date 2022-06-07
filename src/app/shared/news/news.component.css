@@ -1,0 +1,15 @@
+#news {
+  background-image: url("../../../assets/pictures/shared/BackgroundNews.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.rectangle {
+  width: 455px;
+  height: 460px;
+  background: rgba(76, 92, 212, 0.4);
+  border-radius: 25px 0px;
+  margin-top: 174px;
+}

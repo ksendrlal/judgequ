@@ -3,6 +3,8 @@ import {RouterModule, Routes} from "@angular/router";
 import {AppComponent} from "./app.component";
 import {RegistrationComponent} from "./pages/admin/registration/registration.component";
 import {HomeComponent} from "./shared/home/home/home.component";
+import {CreatecompetitionComponent} from "./pages/admin/createcompetition/createcompetition.component";
+import {NewsComponent} from "./shared/news/news.component";
 
 const routes: Routes = [
   {
@@ -12,6 +14,14 @@ const routes: Routes = [
   {
     path: 'registration',
     component: RegistrationComponent
+  },
+  {
+    path: 'createcompetition',
+    component: CreatecompetitionComponent
+  },
+  {
+    path: 'news',
+    component: NewsComponent
   }
 ];
 

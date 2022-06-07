@@ -7,11 +7,15 @@
   position: relative;
 }
 
+.button__changedcolor {
+  background: rgba(82, 91, 159, 0.8);
+}
+
+.button__defaultcolor {
+  background: #525B9F;
+}
+
 .background__registration {
-  width: 540px;
-  height: 350px;
-  background: rgba(82, 91, 159, 0.4);
-  border-radius: 55px 0;
   float: right;
   margin-top: 8px;
   position: relative;
@@ -35,7 +39,7 @@ label {
 }
 
 .form-group {
-  margin-top: 20px;
+  margin-top: 23px;
   margin-left: 94.5px;
 }
 
@@ -57,7 +61,6 @@ label {
 .switch {
   width: 166px;
   height: 38px;
-  background: #525B9F;
   border-radius: 10px 0px;
   border: 0;
   font-size: 20px;
@@ -72,4 +75,18 @@ label {
   float: right;
   position: relative;
   padding-left: 100px ;
+}
+
+.registration__window__rider {
+  width: 540px;
+  height: 350px;
+  background: rgba(82, 91, 159, 0.4);
+  border-radius: 55px 0;
+}
+
+.registration__window__judge {
+  width: 540px;
+  height: 430px;
+  background: rgba(82, 91, 159, 0.4);
+  border-radius: 55px 0;
 }

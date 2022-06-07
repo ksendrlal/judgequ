@@ -10,6 +10,8 @@ export class RegistrationComponent implements OnInit {
 
   form!: FormGroup;
 
+  registrationSwitcherValue: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -18,5 +20,14 @@ export class RegistrationComponent implements OnInit {
   onSubmit() {
 
   }
+
+  execRiderRegistration(): void {
+    this.registrationSwitcherValue = false;
+  }
+
+  execJudgeRegistration(): void {
+    this.registrationSwitcherValue = true;
+  }
+
 
 }
