@@ -1,5 +1,5 @@
 #registartion {
-  background-image: url("../../../../assets/pictures/admin/Background.jpg");
+  background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../../../../assets/pictures/admin/Background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

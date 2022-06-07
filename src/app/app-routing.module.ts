@@ -5,6 +5,7 @@ import {RegistrationComponent} from "./pages/admin/registration/registration.com
 import {HomeComponent} from "./shared/home/home/home.component";
 import {CreatecompetitionComponent} from "./pages/admin/createcompetition/createcompetition.component";
 import {NewsComponent} from "./shared/news/news.component";
+import {DressageComponent} from "./pages/judge/dressage/dressage.component";
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'news',
     component: NewsComponent
+  },
+  {
+    path: 'dressage',
+    component: DressageComponent
   }
 ];
 

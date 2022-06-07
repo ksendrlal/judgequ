@@ -11,6 +11,8 @@ import { HomeComponent } from './shared/home/home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { CreatecompetitionComponent } from './pages/admin/createcompetition/createcompetition.component';
 import { NewsComponent } from './shared/news/news.component';
+import { DressageComponent } from './pages/judge/dressage/dressage.component';
+import { ShowjumpingComponent } from './pages/judge/showjumping/showjumping.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NewsComponent } from './shared/news/news.component';
     HomeComponent,
     HeaderComponent,
     CreatecompetitionComponent,
-    NewsComponent
+    NewsComponent,
+    DressageComponent,
+    ShowjumpingComponent
   ],
   imports: [
     BrowserModule,

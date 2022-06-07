@@ -1,0 +1,15 @@
+#dressage {
+  background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../../../../assets/pictures/judge/BackgroundDressage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.rectangle__scheme {
+  width: 360px;
+  height: 800px;
+  background: rgba(151, 161, 234, 0.8);
+  border-radius: 10px 0px;
+  margin-top: 33px;
+}

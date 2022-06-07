@@ -1,5 +1,5 @@
 #news {
-  background-image: url("../../../assets/pictures/shared/BackgroundNews.jpg");
+  background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../../../assets/pictures/shared/BackgroundNews.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
