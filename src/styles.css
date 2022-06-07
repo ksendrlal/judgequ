@@ -30,12 +30,11 @@ body{
   font-family: var(--userfont);
   font-size: var(--regular-text);
   line-height: var(--line-height);
-  color: var(--text);
   min-width: 320px;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: var(--dark);
+  background-color: var(--text);
   padding: 0;
   margin: 0;
 }

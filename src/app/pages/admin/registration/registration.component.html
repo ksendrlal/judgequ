@@ -1,0 +1,38 @@
+<section id="registartion">
+  <app-header></app-header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="switcher">
+          <button class="switch">Всадник</button>
+          <button class="switch">Судья</button>
+        </div>
+        </div>
+      <div class="col-lg-12">
+        <div class="background__registration">
+          <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="form-group col-7">
+              <label for="input1">Фамилия</label>
+              <input type="input" id="input1">
+            </div>
+            <div class="form-group col-7">
+              <label for="input2">Имя</label>
+              <input type="input" id="input2">
+            </div>
+            <div class="form-group col-7">
+              <label for="input4">Отчество</label>
+              <input type="input" id="input4">
+            </div>
+            <div class="form-group col-7">
+              <label for="input5">Дата рождения</label>
+              <input type="input" id="input5">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <button id="button__registration">Зарегистрировать</button>
+      </div>
+    </div>
+  </div>
+</section>
